@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>Info <%= @item.title %></h1></div>
+
+<img src="<%= @item.image_url %>" width = "300">
+
+<p>Item description: <%=@item.description  %></p>
+
+<p><h3>Click <a href="http://localhost:3000/item/<%= @item.id %>/edit_form">Here</a> to edit item details</h3></p>

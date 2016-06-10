@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h1>Detailed info <%= @List.title %></h1></div>
+
+<img src="<%= @list.image_url %>" width = "300">
+
+<p>Date: <%=@list.date  %></p>
+<p>List description: <%=@list.description  %></p>
+
+<p><h3>Click <a href="http://localhost:3000/movies/<%= @list.id %>/edit_form">Here</a> to edit list details</h3></p>
